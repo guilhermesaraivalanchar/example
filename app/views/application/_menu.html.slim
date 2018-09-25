@@ -1,0 +1,13 @@
+ul#sidebarnav.in
+  li
+    a.has-arrow.waves-effect.waves-dark
+      i.mdi.mdi-book-open
+      span.hide-menu
+        | Cadastros
+    ul.collapse
+      li
+        = link_to("Usuários", users_path)
+      li
+        = link_to("Tipos de Usuários", tipo_users_path)
+      li
+        = link_to("Produtos", produtos_path)
